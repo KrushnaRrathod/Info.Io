@@ -1,0 +1,11 @@
+.register{
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 350px;
+}
+
+.register-info{
+    font-size: 35px;
+    margin: 40px 0;
+}

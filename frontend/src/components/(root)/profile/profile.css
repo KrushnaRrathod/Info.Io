@@ -1,0 +1,64 @@
+/* profileStory*/
+
+.profile-story{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 230px;
+}
+
+/* profile*/
+
+.profile{
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.fullName{
+    font-size: 20px;
+}
+
+.email{
+    font-size: 20px;
+}
+
+.phoneNumber{
+    font-size: 20px;
+}
+
+/* update-story */
+
+.update-story{
+    max-width: 900px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* profile.css */
+.btn.loading {
+    position: relative;
+    cursor: not-allowed;
+  }
+  
+  .btn.loading::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #fff;
+    border-top: 2px solid #007bff;
+    border-radius: 50%;
+    animation: spin 0.6s linear infinite;
+    transform: translate(-50%, -50%);
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  

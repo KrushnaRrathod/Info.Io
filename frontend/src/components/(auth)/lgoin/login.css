@@ -1,0 +1,13 @@
+.login{
+    width: 350px;
+    margin:100px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.welcome{
+    text-align: center;
+    margin: 40px 0;
+}
